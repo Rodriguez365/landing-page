@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    height: 350px;
+
+}
+.logo-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+.this-website{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+
+}
+.sign-up-placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.logo{
+    color: white;
+}
+.links{
+   padding:10px;
+   
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    background-color: #2881f6;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    padding: 6px;
+}
+.img-placeholder{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+.random-info{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.boxed-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.box{
+    border-radius: 10px;
+    border-color: blue;
+    padding: 60px;
+    background-color: white;
+}
+.info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+
+.Odin-quote{
+    background-color: #e5e7eb;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.quote-name{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+
+    
+}
+.quote{
+    padding-right: 50px;
+    font-size: 36px;
+    font-style: italic;
+}
+.outer-singup{
+    background-color: white;
+}
+.inner-signup{
+    background-color: #2881f6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.bold{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.bottom-button{
+    border-radius: 10px;
+    text-align: center;
+    background-color: #2881f6;
+    border-color: white;
+    color: white;
+
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 60px;
+}
